@@ -7,13 +7,13 @@ import Loader2 from "./components/Loader2";
 import useNfts from "./hook/useNfts";
 import { currentRegion, findOrCreateUser } from "./utils/functions";
 
-const URL = ""; // Unity files URL
+const URL = "https://play.realityofmadness.com/test-sdk";
 
 const unityOptions = {
-  loaderUrl: URL + "/.js",
-  dataUrl: URL + "/.data",
-  frameworkUrl: URL + "/.framework.js",
-  codeUrl: URL + "/.wasm",
+  loaderUrl: URL + "/sdk_test.loader.js",
+  dataUrl: URL + "/sdk_test.data",
+  frameworkUrl: URL + "/sdk_test.framework.js",
+  codeUrl: URL + "/sdk_test.wasm",
   productName: "sdk_test",
   productVersion: "0.0.1",
   companyName: "test-sdk",
